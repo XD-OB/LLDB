@@ -1,0 +1,5 @@
+When a set breakpoint is reached, it stops execution of the program and allows for LLDB commands to be run. You can also specify commands to run each time a breakpoint is reached by using the breakpoint command add command, which takes a breakpoint ID or a location ID as an argument.
+
+breakpoint set --one-shot (-o) does create a one-shot breakpoint. A one-shot breakpoint is a type of breakpoint that only exists till it's triggered then it gets automatically deleted.
+
+w s v : watchpoint set variable

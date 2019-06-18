@@ -1,0 +1,9 @@
+# For the first time you must create the global init file in ~ and put the cmd:
+# that mean look first in the current directory for .lldbinit
+
+settings set target.load-cwd-lldbinit true
+
+the assembly language has 2 main syntax: intel === MS-DOS, Windows
+										 AT&T === Unix
+
+For the Ascii art go to: http://patorjk.com/software/taag/#p=display&f=Big%20Money-ne&t=obelouch
