@@ -1,17 +1,17 @@
 w s v count
-process continue
-process continue
+c
+c
 expr -- tab[0] = tab[1]
-process continue
+c
 expr int $tmp = tab[1]
-process continue
+c
 expr -- tab[2] = tab[1]; tab[1] = $tmp
-process continue
+c
 expr -- count--
 w delete 1
-breakpoint set -p "tmp /= max"
-process continue
+br s -p "tmp /= max"
+c
 expr -- for(int i = 0; i < max; i++) tmp += min[i];
-breakpoint set -p "return biggest"
+br s -p "return biggest"
 expr -- for(int i = 0; i < max; i++) if (biggest <= min[i]) biggest = min[i]
-process cnotinue
+c

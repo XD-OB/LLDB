@@ -1,5 +1,7 @@
 http://ryanipete.com/blog/lldb/python/how_to_create_a_custom_lldb_command_pt_1/
 https://medium.com/itty-bitty-apps/scripting-lldb-with-python-31718eb4e501/
+http://www.fabianguerra.com/ios/introduction-to-lldb-python-scripting/
+https://www.nesono.com/sites/default/files/lldb%20cheat%20sheet.pdf
 
 to import the script:
 command script import ./reverse.py
