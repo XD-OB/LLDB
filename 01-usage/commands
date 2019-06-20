@@ -11,7 +11,8 @@ expr -- count--
 w delete 1
 br s -p "tmp /= max"
 c
-expr -- for(int i = 0; i < max; i++) tmp += min[i];
+expr -- for(int i = 0; i < max; i++) tmp += min[i]
 br s -p "return biggest"
-expr -- for(int i = 0; i < max; i++) if (biggest <= min[i]) biggest = min[i]
+c
+expr -- for(int i = 0; i < max; i++) if(biggest < min[i]) biggest = min[i]
 c

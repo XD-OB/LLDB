@@ -1,0 +1,20 @@
+settings set prompt "(obelouch)"
+settings set target.x86-disassembly-flavor intel
+command script import ls.py
+command script import cd.py
+command script import main_run.py
+command script import fix_source_cpp.py
+script print "\x1b[0;32m           __                  __                                __       "
+script print "          /  |                /  |                              /  |      "
+script print "  ______  $$ |____    ______  $$ |  ______   __    __   _______ $$ |____  "
+script print " /      \ $$      \  /      \ $$ | /      \ /  |  /  | /       |$$      \ "
+script print "/$$$$$$  |$$$$$$$  |/$$$$$$  |$$ |/$$$$$$  |$$ |  $$ |/$$$$$$$/ $$$$$$$  |"
+script print "$$ |  $$ |$$ |  $$ |$$    $$ |$$ |$$ |  $$ |$$ |  $$ |$$ |      $$ |  $$ |"
+script print "$$ \__$$ |$$ |__$$ |$$$$$$$$/ $$ |$$ \__$$ |$$ \__$$ |$$ \_____ $$ |  $$ |"
+script print "$$    $$/ $$    $$/ $$       |$$ |$$    $$/ $$    $$/ $$       |$$ |  $$ |"
+script print " $$$$$$/  $$$$$$$/   $$$$$$$/ $$/  $$$$$$/   $$$$$$/   $$$$$$$/ $$/   $$/ \x1b[0;0m"
+script print ""
+script print "                                                     by: obelouch"
+script print ""
+script print ""
+script print ""
