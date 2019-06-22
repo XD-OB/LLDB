@@ -1,18 +1,17 @@
-w s v count
-c
-c
-e -- tab[0] = tab[1]
-c
-e int $tmp = tab[1]
-c
-e -- tab[2] = tab[1]; tab[1] = $tmp
-c
-e -- count--
-w del 1
-br s -p "tmp /= max" -o
-c
-e -- for(int i = 0; i < max; i++) tmp += min[i]
-br s -p "return biggest" -o
-c
-e -- for(int i = 0; i < max; i++) if(biggest < min[i]) biggest = min[i]
-c
+watchpoint set variable count
+proces continue
+expression -- tab[0] = tab[1]
+proces continue
+expression int $tmp = tab[1]
+proces continue
+expression -- tab[2] = tab[1]; tab[1] = $tmp
+proces continue
+expression -- count = 0
+watchpoint delete 1
+breakpoint set -p "tmp /= max"
+proces continue
+expression -- for(int i = 0; i < max; i++) tmp += min[i]
+breakpoint set -p "return biggest"
+proces continue
+expression -- for(int i = 0; i < max; i++) if(biggest < min[i]) biggest = min[i]
+proces continue

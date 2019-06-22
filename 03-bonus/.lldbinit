@@ -1,20 +1,33 @@
-settings set prompt "(obelouch)"
+settings set prompt "(hmney) "
 settings set target.x86-disassembly-flavor intel
-command script import ls.py
-command script import cd.py
-command script import main_run.py
 command script import fix_source_cpp.py
-script print "\x1b[0;32m           __                  __                                __       "
-script print "          /  |                /  |                              /  |      "
-script print "  ______  $$ |____    ______  $$ |  ______   __    __   _______ $$ |____  "
-script print " /      \ $$      \  /      \ $$ | /      \ /  |  /  | /       |$$      \ "
-script print "/$$$$$$  |$$$$$$$  |/$$$$$$  |$$ |/$$$$$$  |$$ |  $$ |/$$$$$$$/ $$$$$$$  |"
-script print "$$ |  $$ |$$ |  $$ |$$    $$ |$$ |$$ |  $$ |$$ |  $$ |$$ |      $$ |  $$ |"
-script print "$$ \__$$ |$$ |__$$ |$$$$$$$$/ $$ |$$ \__$$ |$$ \__$$ |$$ \_____ $$ |  $$ |"
-script print "$$    $$/ $$    $$/ $$       |$$ |$$    $$/ $$    $$/ $$       |$$ |  $$ |"
-script print " $$$$$$/  $$$$$$$/   $$$$$$$/ $$/  $$$$$$/   $$$$$$/   $$$$$$$/ $$/   $$/ \x1b[0;0m"
+command script import cd.py
+command script import ls.py
+command script import run_main.py
+script print "\x1b[0;32m"
+script print "hhhhhhh"
+script print "h:::::h"
+script print "h:::::h"
+script print "h:::::h"
+script print " h::::h hhhhh          mmmmmmm    mmmmmmm   nnnn  nnnnnnnn        eeeeeeeeeeee  yyyyyyy           yyyyyyy"
+script print " h::::hh:::::hhh     mm:::::::m  m:::::::mm n:::nn::::::::nn    ee::::::::::::ee y:::::y         y:::::y"
+script print " h::::::::::::::hh  m::::::::::mm::::::::::mn::::::::::::::nn  e::::::eeeee:::::eey:::::y       y:::::y"
+script print " h:::::::hhh::::::h m::::::::::::::::::::::mnn:::::::::::::::ne::::::e     e:::::e y:::::y     y:::::y"
+script print " h::::::h   h::::::hm:::::mmm::::::mmm:::::m  n:::::nnnn:::::ne:::::::eeeee::::::e  y:::::y   y:::::y"
+script print " h:::::h     h:::::hm::::m   m::::m   m::::m  n::::n    n::::ne:::::::::::::::::e    y:::::y y:::::y"
+script print " h:::::h     h:::::hm::::m   m::::m   m::::m  n::::n    n::::ne::::::eeeeeeeeeee      y:::::y:::::y"
+script print " h:::::h     h:::::hm::::m   m::::m   m::::m  n::::n    n::::ne:::::::e                y:::::::::y"
+script print " h:::::h     h:::::hm::::m   m::::m   m::::m  n::::n    n::::ne::::::::e                y:::::::y"
+script print " h:::::h     h:::::hm::::m   m::::m   m::::m  n::::n    n::::n e::::::::eeeeeeee         y:::::y"
+script print " h:::::h     h:::::hm::::m   m::::m   m::::m  n::::n    n::::n  ee:::::::::::::e        y:::::y"
+script print " hhhhhhh     hhhhhhhmmmmmm   mmmmmm   mmmmmm  nnnnnn    nnnnnn    eeeeeeeeeeeeee       y:::::y"
+script print "                                                                                      y:::::y"
+script print "                                                                                     y:::::y"
+script print "                                                                                    y:::::y"
+script print "                                                                                   y:::::y"
+script print "                                                                                  yyyyyyy"
+script print "\x1b[0;0m"
 script print ""
-script print "                                                     by: obelouch"
 script print ""
 script print ""
 script print ""
