@@ -3,5 +3,6 @@ When a set breakpoint is reached, it stops execution of the program and allows f
 breakpoint set --one-shot (-o) does create a one-shot breakpoint. A one-shot breakpoint is a type of breakpoint that only exists till it's triggered then it gets automatically deleted.
 
 w s v : watchpoint set variable
+w del [_id_] : watchpoitn delete [_id_]
 br s : breakpoint set
 c : process continue

@@ -1,18 +1,18 @@
 w s v count
 c
 c
-expr -- tab[0] = tab[1]
+e -- tab[0] = tab[1]
 c
-expr int $tmp = tab[1]
+e int $tmp = tab[1]
 c
-expr -- tab[2] = tab[1]; tab[1] = $tmp
+e -- tab[2] = tab[1]; tab[1] = $tmp
 c
-expr -- count--
-w delete 1
-br s -p "tmp /= max"
+e -- count--
+w del 1
+br s -p "tmp /= max" -o
 c
-expr -- for(int i = 0; i < max; i++) tmp += min[i]
-br s -p "return biggest"
+e -- for(int i = 0; i < max; i++) tmp += min[i]
+br s -p "return biggest" -o
 c
-expr -- for(int i = 0; i < max; i++) if(biggest < min[i]) biggest = min[i]
+e -- for(int i = 0; i < max; i++) if(biggest < min[i]) biggest = min[i]
 c

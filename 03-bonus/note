@@ -1,1 +1,4 @@
 platform shell : run a shell command on the current plateform
+
+mode Asynchron:
+	True:	When we step or continue the execution, return from the function even when the process didn't stop.

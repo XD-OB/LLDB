@@ -10,4 +10,3 @@ def ft_reverse(debugger, command, result, internal_dict):
 
 def __lldb_init_module(debugger, internal_dict):
 	debugger.HandleCommand('command script add -h "reverse the target and add FT_ in the beginning" -f reverse.ft_reverse reverse');
-

@@ -4,8 +4,11 @@ http://www.fabianguerra.com/ios/introduction-to-lldb-python-scripting/
 https://www.nesono.com/sites/default/files/lldb%20cheat%20sheet.pdf
 
 to import the script:
-command script import ./reverse.py
+	command script import ./reverse.py
 you can add and configure the command manualy with:
-command script add -f reverse.ft_reverse reverse
+	command script add -f reverse.ft_reverse reverse
 or with adding that in the fonction:
- __lldb_init_module(debugger, internal_dict)
+	__lldb_init_module(debugger, internal_dict)
+
+debugger is an instance:
+	debugger = lldb.SBDebugger.Create()
