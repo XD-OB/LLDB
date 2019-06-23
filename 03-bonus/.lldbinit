@@ -1,10 +1,13 @@
 settings set prompt "(hmney) "
 settings set target.x86-disassembly-flavor intel
 command script import fix_source_cpp.py
-command script import cd.py
 command script import ls.py
+command script import ft_pwd.py
+command script import echo.py
+command script import cd.py
 command script import run_main.py
-script print "\x1b[0;32m"
+command script import ../02-script/reverse.py
+script print "\x1b[0;36m"
 script print "hhhhhhh"
 script print "h:::::h"
 script print "h:::::h"
@@ -26,8 +29,6 @@ script print "                                                                  
 script print "                                                                                    y:::::y"
 script print "                                                                                   y:::::y"
 script print "                                                                                  yyyyyyy"
-script print "\x1b[0;0m"
-script print ""
-script print ""
+script print "\x1b[0;32m"
 script print ""
 script print ""
